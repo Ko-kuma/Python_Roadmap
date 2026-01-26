@@ -1,6 +1,6 @@
 '''
-a = 7
-b = 3
+a = int(input())
+b = int(input())
 print(f"{a + b}\n{a - b}\n{a * b}\n{a // b}\n{a % b}")
 '''
 a, b = map(int, input().split())
